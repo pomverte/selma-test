@@ -43,6 +43,9 @@
         <configuration>
           <source>${java.version}</source>
           <target>${java.version}</target>
+          <showWarnings>true</showWarnings>
+          <optimize>true</optimize>
+          <showDeprecation>true</showDeprecation>
         </configuration>
       </plugin>
     </plugins>
