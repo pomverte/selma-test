@@ -9,7 +9,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>1.7</java.version>
-    <commons-lang.version>3.4</commons-lang.version>
     <selma.version>0.15</selma.version>
     <lombok.version>1.16.10</lombok.version>
   </properties>
@@ -40,6 +39,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
         <configuration>
           <source>${java.version}</source>
           <target>${java.version}</target>
